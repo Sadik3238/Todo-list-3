@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image:url(./images/tamara-malaniy.jpg);
+    background-size: cover;
+}
+
+.todo{
+    width: 40%;
+    top: 30%;
+    left: 50%;
+    background: rgb(217, 217, 232);
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-width: 10px;
+    transform: translate(-50%,-50%);
+
+}
+.todo h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo form{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.todo form input {
+    width: 60%;
+    min-height: 25px;
+    background-color:white;
+    border: 5px;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+.todo form placeholder {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+
+.todo form button {
+    width: 80px;
+    min-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+    background: blanchedalmond   s;
+}
+
+.todo ul{
+    margin-top: 5px;
+    padding: 15px 40px;
+}
+
+.todo ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: green;
+    margin-top: 5px;
+    border: green;
+    border-radius: 5px;
+   
+}
